@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            height: 300px;
+            width: 400px;
+            background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);
+            background-size: 100% 100%;    
+            margin: 200px auto;
+            position: relative;
+            overflow: hidden;
+            color: white;
+            font-size: 40px;
+           text-align: center;
+           word-spacing: 5px;
+           letter-spacing: 4px;
+           line-height: 300px;
+              
+        }
+       
+        .y{
+            height: 300px;
+            width: 400px;
+            background-color:rgba(0, 0, 0,.30);
+            position: absolute;
+            top: 300px;
+            right: 400px;
+            transition: .8s;
+           
+            
+        }
+        .xy{
+            height: 300px;
+            width: 400px;
+            background-color:rgba(0, 0, 0,.30);
+            position: absolute;
+            bottom: 300px;
+            left: 400px;
+            transition: .8s;
+            
+        }
+        .x:hover .y {
+            top: 0px;
+            right: 0px;
+            
+        }
+        .x:hover .xy {
+            bottom: 0px;
+            left: 0px; 
+            
+        }
+        .x::before Flat {
+        
+            
+            color: cyan;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        Flat 50% offer
+        <div class="y"></div>
+        <div class="xy"></div>
+    </div>
+</body>
+</html>
